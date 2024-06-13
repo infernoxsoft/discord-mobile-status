@@ -278,17 +278,3 @@ class CustomBot(commands.Bot):
                     resume=True,
                     session=self.ws.session_id,
                 )
-
-
-# example:
-# bot = CustomBot(
-#     command_prefix="!",
-#     intents=Intents.all(),
-#     ws_identify_properties={
-#         "$os": platform,
-#         "$browser": "Discord Android",
-#         "$device": "Discord Android",
-#         "$referrer": "",
-#         "$referring_domain": "",
-#     },
-# )
