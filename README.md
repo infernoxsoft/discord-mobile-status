@@ -24,7 +24,7 @@ bot = CustomBot(
 
 # your other code...
 ```
-This method is better because it does not require patching classes of discord.
+This method is better because it does not require patching classes of `discord.py` library.
 ## Patching `discord.gateway.DiscordWebSocket` `identify` function (for `discord.py` and forks of it):
 1. Copy `patch_discordpy.py` file to the directory with your bot.
 2. Insert the following code:
@@ -33,7 +33,7 @@ from patch_discordpy import patch_discordpy
 patch_discordpy()
 ```
 That's all.
-### How to patch other Discord bot library (must be fork of discord.py)
+### How to patch other Discord bot library (must be fork of discord.py):
 For example, we use the disnake library.
 1. Open `patch_discordpy.py`.
 2. Replace `from discord import ...` to `from disnake import ...`.
