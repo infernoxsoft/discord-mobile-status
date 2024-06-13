@@ -1,4 +1,4 @@
-## Mobile status for discord.py (and other libraries) for Discord bots
+## Mobile status for discord.py (and other libraries for Discord bots)
 ### How to use:
 1. Copy `patch_discordpy.py` file to the directory with your bot.
 2. Insert the following code:
