@@ -1,6 +1,6 @@
 # Mobile status for discord.py (and other libraries for Discord bots)
 ## Using modified bot instance (only for `discord.py`):
-1. Copy directory `modified_bot_instance` to directory with your bot.
+1. Copy directory `bot_instance` to directory with your bot.
 2. Optionally, you can rename this directory to something like 'custom_bot'.
 3. Use the bot instance from `custom_bot.CustomBot` instead of `discord.ext.commands.Bot`.
 4. Code example:

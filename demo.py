@@ -3,7 +3,7 @@ import sys
 sys.dont_write_bytecode = True
 
 
-from modified_bot_instance import CustomBot
+from bot_instance import CustomBot
 from discord import Intents
 from os import getenv
 
